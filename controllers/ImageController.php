@@ -32,7 +32,7 @@ use ServerTime;
 
 class ImageController extends Controller
 {
-    public const int CORTEO_USER_ID = 1;
+    public const int ADMIN_USER_ID = 1;
 
     public function renderLabNotesCreature(): void
     {

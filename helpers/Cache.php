@@ -43,7 +43,7 @@ class Cache
         // For new release example creatures (Corteo's, posted on the forum, high traffic),
         // we want to have a 30% window based on how long we have left to grow.
         if (
-            $creature->getOwner() === ImageController::CORTEO_USER_ID
+            $creature->getOwner() === ImageController::ADMIN_USER_ID
             && str_contains(Server::getHttpReferer(), 'forum.finaloutpost.net')
         ) {
             return (int)($secondsUntilNextGrowthEvent * .7);
