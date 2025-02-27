@@ -4,13 +4,13 @@
 The creatures feature generative art based on the genetics how a creature is spawned.
 
 For example, a creature might have the following genes ``Body:aa, Markings:AA, Spots:AA`` and look like:
-![](.repo-images/Bodyaa-MarkingsAA-SpotsAA-1.png)
+![](repo-images/Bodyaa-MarkingsAA-SpotsAA-1.png)
 
 Another creature might have ``Body:aa, Markings:aa, Spots:aa``
-![](.repo-images/Bodyaa-Markingsaa-Spotsaa-2.png)
+![](repo-images/Bodyaa-Markingsaa-Spotsaa-2.png)
 
 While a third may be ``Body:aa, Markings:Aa, Spots:Aa``
-![](.repo-images/Bodyaa-MarkingsAa-SpotsAa-3.png)
+![](repo-images/Bodyaa-MarkingsAa-SpotsAa-3.png)
 
 While a limited number of genes keeps permutations manageable, species are not restricted to a fixed gene count. 
 Dimorphism can also double the amount of art needed. Some 
