@@ -1,7 +1,7 @@
 # Image Server for The Final Outpost
 
 [The Final Outpost](https://finaloutpost.net) is an online collecting game where users "adopt" a variety of creatures.  
-The creatures feature generative art based on the genetics how a creature is spawned.
+The creatures feature generative art based on the genetics of how a creature is spawned.
 
 For example, a creature might have the following genes ``Body:aa, Markings:AA, Spots:AA`` and look like:
 
@@ -19,7 +19,7 @@ While a limited number of genes keeps permutations manageable, species are not r
 Dimorphism can also double the amount of art needed. Some can have up to 14 billion possible combinations, making it mathematically impossible for artists to manually create every variation. 
 Additionally, certain species require special layering—such as placing a back wing at the bottom and a front wing at the 
 top, even though the database categorizes both simply as "wing." The need for extra image flags further complicates 
-clean, efficient coding.  Additionally, the code must be able to assemble the images on the fly for a high amount of 
+clean, efficient coding.  The code must also be able to assemble the images on the fly for a high amount of 
 traffic.
 
 This server solves those issues by breaking species into specific "compositions" that dictate how it should be rendered. It also makes sure that images are cached and rendered effectively for different environments (for example on site vs a twitter meta image card).
